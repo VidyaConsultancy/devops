@@ -7,3 +7,9 @@ function greet(name = 'Guest') {
 console.log(greet('John'));
 
 console.log(greet());
+
+function add(a, b) {
+    return a + b;
+}
+
+console.log(add(10, 20));
